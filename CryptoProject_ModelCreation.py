@@ -56,7 +56,6 @@ look_back = 60
 future_day = 1                                                          # future day prediction =61st day prediction from learning past 60 days/look_back days:60/time_stamps_of_lstm:60 
 
 
-# definitions used in for loop: 
 
 # creates scalaed data and dumps scalar with scalar_name_model.pkl using MinMaxScalar
 def custom_scaler(dataset, scaler_name):
