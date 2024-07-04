@@ -18,7 +18,7 @@ from pickle import load
 from keras.models import load_model # type: ignore
 import yfinance as yf
 from copy import deepcopy
-#np.random.seed(9)                                      # not doing anything since other seeds tf,keras needs to be fixed too to reproduce results
+#np.random.seed(9)                                       # not doing anything since other seeds tf,keras needs to be fixed too to reproduce results
 import os
 from calendar import isleap
 
@@ -364,6 +364,7 @@ def recursive_predict2(dt4,dt2):
     plt.show()
     
     return True
+
 
 
 # recursive_predict2 : predicts recursive predictions AND regular/non recursive predictions in daterange
